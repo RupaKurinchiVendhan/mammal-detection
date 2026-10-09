@@ -1,0 +1,218 @@
+#!/usr/bin/env python3
+"""Write derived_annotations.csv - annotation counts recovered from the data itself.
+
+Every row here was produced by opening a dataset's own annotation files, not by
+reading a description. `n_annotations` counts labelled acoustic events on the
+dataset's own terms, which `annotation_unit` names, because "one annotation" means
+a Raven selection in one corpus and a labelled clip in another. Counts that are
+not events at all (recording-level catalogues) carry n_annotations empty and say so.
+
+    python3 write_derived.py
+"""
+import csv, json, os
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+WAVH = json.load(open(os.path.join(HERE, ".annot_cache", "wavhours.json")))
+ARCH = json.load(open(os.path.join(HERE, ".annot_cache", "archives.json")))
+
+
+def wh(*keys):
+    """Summed hours and file counts over several archives of one dataset."""
+    h = f = 0.0
+    for k in keys:
+        v = WAVH.get(k) or {}
+        if "error" in v or not v:
+            return None, None
+        h += v["hours"]; f += v["files"]
+    return h, int(f)
+
+
+def af(*keys):
+    n = 0
+    for k in keys:
+        v = ARCH.get(k) or {}
+        if "error" in v or not v:
+            return None
+        n += v["audio"]
+    return n
+
+
+# uid, name, clade, n_annotations, unit, n_files, hours, method, evidence
+ROWS = []
+
+
+def add(uid, name, clade, n, unit, files, hours, method, evidence, prefer=""):
+    """prefer names the measures where this row supersedes the catalogue's own
+    number - used only where the measurement covers the whole published record and
+    the catalogue's figure demonstrably does not describe it."""
+    ROWS.append(dict(dataset_uid=uid, dataset_name=name, mammal_clade=clade,
+                     n_annotations="" if n is None else n, annotation_unit=unit,
+                     n_audio_files="" if files is None else files,
+                     derived_hours="" if hours is None else round(hours, 3),
+                     prefer_derived=prefer, method=method, evidence=evidence))
+
+
+# ----------------------------------------------------------- marine mammals ---
+add("BIOAC-091", "Animal2vec Bioacoustic Task for Finetuning Library (ATBFL)",
+    "Baleen whales", 15633, "labelled audio segment", None, None,
+    "annotation table inside remote zip",
+    "ATBFL_BASEAL.zip -> labels.csv 15,633 rows, metadata.csv 15,633 rows "
+    "(filename,segment_start,segment_end,dataset,annotator); audio ships as 15,634 .npy embeddings")
+
+add("BIOAC-100", "CESCAB ocean-glider cetacean acoustic dataset",
+    "Toothed whales & dolphins", 1626, "Raven selection (call/click bout)",
+    af("20702261/3_CESCAB-clips-flac.zip", "20702261/1_CESCAB-raw-flac.zip"), None,
+    "annotation table + zip central directory",
+    "2_CESCAB-annotation-table.txt: 1,626 rows (1,456 Delphinidae, 160 Physeter, "
+    "10 Grampus; 1,285 whistles, 341 clicks); clip archive holds exactly 1,626 FLACs, "
+    "one per annotation, plus 6,147 raw FLACs")
+
+add("BIOAC-103", "DAS fin whale labeled acoustic dataset", "Baleen whales",
+    3, "annotated whale track", None, None, "annotation table inside remote zip",
+    "data.zip -> three *_fin_whale_annotations.csv (Svalbard, OOI South, Med Sea), "
+    "one row each; the dataset is 4 HDF5 strain files, not audio")
+
+add("BIOAC-123", "Free-ranging odontocete acoustic recordings from low-cost devices",
+    "Toothed whales & dolphins", 694, "Raven selection", 1253, 38.3,
+    "annotation tables in remote zips + deployment log",
+    "29 unique *_annotations.txt across six species archives = 694 rows after "
+    "de-duplicating the mixed-species tables that appear in two archives; "
+    "Supplementary_table.xlsx timeRecorded (s) over 32 deployments = 38.3 h")
+
+add("BIOAC-151", "Pilot Whale (GlobEar / DCASE) Acoustic Dataset",
+    "Toothed whales & dolphins", 260, "POS event interval", None, None,
+    "annotation tables inside downloaded zip",
+    "DCASE 2022 Task 5 Development_Set_annotations.zip, PB (pilot whale) subset: "
+    "260 POS intervals over 6 tables; the other subsets belong to other catalogue rows")
+
+add("BIOAC-158", "Spotted seal vocal behavior dataset", "Pinnipeds",
+    161, "measured call", None, None, "annotation table",
+    "spotted_seal_acoustic_measurements.csv: 161 rows, one per measured call")
+
+add("BIOAC-159", "TemporalContext-2021-FinWhale", "Baleen whales",
+    2765, "Raven selection (fin whale note)", *wh("4661495/TemporalContext-2021-FinWhale.zip"),
+    "annotation tables + WAV byte rate, both read inside the remote zip",
+    "five *.selections.txt note-level tables = 2,765 rows (472+914+283+489+607); "
+    "five *.nonBp-selections.txt mark 254 non-song sections and are not counted as calls")
+
+add("BIOAC-161", "Western Indian Ocean blue whale call annotations", "Baleen whales",
+    6713, "Raven selection", None, None, "annotation tables",
+    "Annotation.txt 5,691 rows + Annotation_RR48_2013_D151.txt 1,022 rows")
+
+# ------------------------------------------------------------------ primates ---
+add("BIOAC-226", "Black-and-white ruffed lemur passive-acoustic dataset", "Primates",
+    1780, "Sonic Visualiser point", *reversed(wh("6331594/Audio1.zip", "6331594/Audio3.zip")),
+    "XML annotation files + WAV byte rate, read inside remote zips",
+    "111 .svl files across Annotations1-3.zip hold 1,780 <point> elements "
+    "(619 + 652 + 509); Audio1.zip 40 WAVs at 16 kHz stereo and Audio3.zip 31 at "
+    "48 kHz mono give 53.6 h, Audio2.zip is a nested archive and was not opened")
+
+add("BIOAC-249", "Gibbon song datasets (Bornean / Southeast Asian)", "Primates",
+    4932, "Sonic Visualiser point",
+    *reversed(wh(*[f"7997739/Audio_{i}.zip" for i in range(1, 5)])),
+    "annotation tables + WAV byte rate",
+    "Annotations.zip: 4,932 rows across 96 tables; Audio_1-4.zip hold 36 WAVs "
+    "(9.6-24 kHz, stereo) totalling 65.2 h")
+
+add("BIOAC-251", "Gombe adult chimpanzee vocalizations", "Primates",
+    None, "recording-level catalogue, not events", 6, None, "spreadsheet",
+    "AdultDirSounds11Dec14Final.xls lists 606 catalogued recordings, not individual "
+    "calls; the record ships 6 WAV files. A separate sheet names 56 sound types")
+
+add("BIOAC-255", "Hainan gibbon PAM annotations (original release)", "Primates",
+    1858, "labelled call interval", 186, 1374.8,
+    "annotation tables + WAV byte rate, read inside 18 remote zips",
+    "Train/Test/Extra label archives: 1,233 + 483 + 142 gibbon call rows = 1,858, "
+    "and a further 670 rows in n_* files mark non-gibbon sound. Measuring all 18 "
+    "audio archives (3 labelled, 15 unlabelled, 9.6 kHz stereo 16-bit) gives 186 WAVs "
+    "and 1,374.8 h, of which 251.3 h across 32 files carry labels. The catalogue's "
+    "6,000 h describes the wider monitoring effort, not this release, so the measured "
+    "figure is used instead",
+    prefer="hours,files")
+
+add("BIOAC-256", "Hainan gibbon social-group acoustic dataset", "Primates",
+    7958, "annotated song phrase",
+    *reversed(wh(*[f"20834429/part_{i}.zip" for i in range(1, 6)])),
+    "annotation tables + WAV byte rate, read inside remote zips",
+    "phrase_annotations.csv: 7,958 phrases. all_segment_annotations.csv holds 32,706 "
+    "fixed 4.8 s segments, which are windows rather than vocalizations")
+
+add("BIOAC-265", "MarmAudio", "Primates", 871045, "labelled vocalization clip",
+    871045, 253.9, "annotation table + zip central directory",
+    "Annotations.tsv: 871,045 rows, each a call with a type label "
+    "(Vocalization 655,822; Twitter 65,309; Tsik 46,659; Phee 37,975; Trill 30,979; "
+    "Infant 29,630; Seep 4,671); Vocalizations.zip holds exactly 871,045 FLACs, so "
+    "one clip is one call; summed clip durations = 253.9 h of vocalization, not of recording")
+
+add("BIOAC-277", "Southern yellow-cheeked crested gibbon PAM benchmark", "Primates",
+    7752, "labelled clip",
+    *reversed(wh("12706803/CrestedGibbonTraining(JahooClips).zip",
+                 "12706803/TrainingData1085(SortedDetectionsWav).zip",
+                 "12706803/TestClipsDiffGibbonSpp(ValidationClipsVietnam).zip",
+                 "12706803/AutomatedDetectionTestDataWideArray(SoundFiles).zip")),
+    "zip central directories + WAV byte rate",
+    "labelled clip archives hold 2,343 + 5,181 + 228 WAVs = 7,752, one label per clip; "
+    "the wide-array test archive adds 10 continuous files")
+
+# ----------------------------------------------------- carnivores & others ---
+add("BIOAC-232", "CatMeows", "Carnivores (terrestrial)", 440,
+    "labelled vocalization clip", *reversed(wh("4008297/dataset.zip")),
+    "zip central directory + WAV byte rate",
+    "dataset.zip holds 440 WAVs, one meow each, with context/sex/identity encoded in "
+    "the filename; extras.zip adds 43")
+
+add("BIOAC-239", "Dog-human social play vocalization dataset", "Carnivores (terrestrial)",
+    2962, "Raven selection",
+    *reversed(wh("18972388/03 Play session recordings.zip", "18972388/02 Raw recordings.zip")),
+    "annotation tables + zip central directory",
+    "04 Annotations.zip: 30 Raven tables, 2,962 selections, labels E 1,400 / L 621 / "
+    "H 344 / I 238 / A 179 / C 72 / J 52 / D 22; the recordings are mostly MP4 video "
+    "(133 MP4 vs 48 WAV in the raw archive)")
+
+add("BIOAC-266", "MeerKAT / Kalahari Meerkat Project annotated vocalisations",
+    "Carnivores (terrestrial)", 1294, "labelled call interval", None, None,
+    "annotation tables inside downloaded zip",
+    "Voxaboxen MT component (Kalahari meerkat): 1,294 events across 6 selection "
+    "tables; the DOI in the catalogue points at an unrelated record")
+
+add("BIOAC-278", "Spotted hyena vocalisation archive (Mara Hyena Project)",
+    "Carnivores (terrestrial)", 485, "POS event interval", None, None,
+    "annotation tables inside downloaded zip",
+    "DCASE 2022 Task 5 HT (hyena) subset: 485 POS intervals over 5 tables; the DOI in "
+    "the catalogue points at an unrelated record")
+
+add("BIOAC-017", "ChirosetEurope", "Bats", 11517, "species-labelled recording",
+    11517, 22.9, "manifest",
+    "ChirosetEurope_manifest_v1.csv: 11,517 rows, one per recording, each carrying a "
+    "species label across 35 species; audio.zip exposes 2,931 of those WAVs")
+
+add("BIOAC-282", "USCMed rat ultrasonic vocalizations", "Rodents", 296,
+    "annotated USV", 27, 3.71, "annotation tables inside remote zip",
+    "27 per-recording tables inside USCMed.zip "
+    "(begin_file, begin_time, end_time, low_freq, high_freq, USV_TYPE) = 296 rows")
+
+add("BIOAC-236", "CowRumIA bovine vocalization dataset", "Ungulates & livestock",
+    624, "labelled vocalization clip", 624, 0.49,
+    "zip central directory", "CowRumIA-Dataset.zip: 624 WAVs, one labelled call each")
+
+add("BIOAC-276", "Soundwel labeled pig vocalization repository", "Ungulates & livestock",
+    6887, "labelled vocalization clip", 6887, 0.62, "spreadsheet + zip central directory",
+    "SoundwelDatasetKey.xlsx: 6,887 rows over 31 columns (age, sex, context, call type); "
+    "the audio archive holds exactly 6,887 WAVs, so one clip is one call")
+
+add("BIOAC-284", "VOCAPRA goat vocalization dataset", "Ungulates & livestock",
+    4147, "labelled vocalization clip", 4147, 2.3, "zip central directory",
+    "goat_bleatings.zip: 4,147 WAVs, one bleat each")
+
+
+if __name__ == "__main__":
+    cols = ["dataset_uid", "dataset_name", "mammal_clade", "n_annotations",
+            "annotation_unit", "n_audio_files", "derived_hours", "prefer_derived",
+            "method", "evidence"]
+    out = os.path.join(HERE, "derived_annotations.csv")
+    with open(out, "w", encoding="utf-8", newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=cols, quoting=csv.QUOTE_ALL)
+        w.writeheader()
+        w.writerows(sorted(ROWS, key=lambda r: r["dataset_uid"]))
+    tot = sum(int(r["n_annotations"]) for r in ROWS if r["n_annotations"] != "")
+    print(f"{len(ROWS)} datasets, {tot:,} annotated events -> {out}")

@@ -1,0 +1,4 @@
+First queried their API’s with a giant keyword search of every movement related keyword I or ChatGPT could think of which returned me many tens of thousands of potential DOI’s
+[2:35 PM]Then I wrote a big prompt for how an agent would review a single DOI to determine if it was relevant to what I was trying to do and how to convert it to my desired format if it was
+[2:36 PM]Then I launch Codex with sub agent capabilities, and tell it to delegate one DOI per agent and run forever and log a record of every decision that was made
+[2:37 PM]Blows through my weekly quota in about an hour lol but I’ve scraped like 400M data points at this point

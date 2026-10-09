@@ -1,0 +1,434 @@
+{
+ "17282717/Delphinidae.zip": {
+  "audio": 702,
+  "audio_bytes": 4324040816,
+  "tables": 6,
+  "members": 708,
+  "exts": {
+   ".txt": 6,
+   ".wav": 702
+  }
+ },
+ "17282717/Stenella_coeruleoalba.zip": {
+  "audio": 17,
+  "audio_bytes": 368988148,
+  "tables": 2,
+  "members": 19,
+  "exts": {
+   ".txt": 2,
+   ".wav": 17
+  }
+ },
+ "17282717/Tursiops_truncatus.zip": {
+  "audio": 162,
+  "audio_bytes": 2111525694,
+  "tables": 14,
+  "members": 176,
+  "exts": {
+   ".txt": 14,
+   ".wav": 162
+  }
+ },
+ "17282717/Grampus_griseus.zip": {
+  "audio": 31,
+  "audio_bytes": 378821658,
+  "tables": 6,
+  "members": 37,
+  "exts": {
+   ".txt": 6,
+   ".wav": 31
+  }
+ },
+ "17282717/Globicephala_melas.zip": {
+  "audio": 256,
+  "audio_bytes": 2332921420,
+  "tables": 16,
+  "members": 272,
+  "exts": {
+   ".txt": 16,
+   ".wav": 256
+  }
+ },
+ "17282717/Physeter_macrocephalus.zip": {
+  "audio": 85,
+  "audio_bytes": 1831347746,
+  "tables": 18,
+  "members": 103,
+  "exts": {
+   ".txt": 18,
+   ".wav": 85
+  }
+ },
+ "6331594/Audio1.zip": {
+  "audio": 40,
+  "audio_bytes": 7589536684,
+  "tables": 0,
+  "members": 40,
+  "exts": {
+   ".wav": 40
+  }
+ },
+ "6331594/Audio2.zip": {
+  "audio": 0,
+  "audio_bytes": 0,
+  "tables": 0,
+  "members": 1,
+  "exts": {
+   ".zip": 1
+  }
+ },
+ "6331594/Audio3.zip": {
+  "audio": 31,
+  "audio_bytes": 7143161856,
+  "tables": 0,
+  "members": 31,
+  "exts": {
+   ".wav": 31
+  }
+ },
+ "7997739/Audio_1.zip": {
+  "audio": 9,
+  "audio_bytes": 5521568722,
+  "tables": 0,
+  "members": 9,
+  "exts": {
+   ".wav": 9
+  }
+ },
+ "7997739/Audio_2.zip": {
+  "audio": 8,
+  "audio_bytes": 4966361486,
+  "tables": 0,
+  "members": 8,
+  "exts": {
+   ".wav": 8
+  }
+ },
+ "7997739/Audio_3.zip": {
+  "audio": 14,
+  "audio_bytes": 4788567096,
+  "tables": 0,
+  "members": 14,
+  "exts": {
+   ".wav": 14
+  }
+ },
+ "7997739/Audio_4.zip": {
+  "audio": 5,
+  "audio_bytes": 1693450190,
+  "tables": 0,
+  "members": 5,
+  "exts": {
+   ".wav": 5
+  }
+ },
+ "20834429/part_1.zip": {
+  "audio": 20,
+  "audio_bytes": 22118440760,
+  "tables": 0,
+  "members": 20,
+  "exts": {
+   ".wav": 20
+  }
+ },
+ "20834429/part_2.zip": {
+  "audio": 21,
+  "audio_bytes": 22571754798,
+  "tables": 0,
+  "members": 21,
+  "exts": {
+   ".wav": 21
+  }
+ },
+ "20834429/part_3.zip": {
+  "audio": 20,
+  "audio_bytes": 22118440760,
+  "tables": 0,
+  "members": 20,
+  "exts": {
+   ".wav": 20
+  }
+ },
+ "20834429/part_4.zip": {
+  "audio": 20,
+  "audio_bytes": 21560795960,
+  "tables": 0,
+  "members": 20,
+  "exts": {
+   ".wav": 20
+  }
+ },
+ "20834429/part_5.zip": {
+  "audio": 16,
+  "audio_bytes": 17694752608,
+  "tables": 0,
+  "members": 16,
+  "exts": {
+   ".wav": 16
+  }
+ },
+ "20834429/open_population_ID.zip": {
+  "audio": 0,
+  "audio_bytes": 0,
+  "tables": 18,
+  "members": 18,
+  "exts": {
+   ".csv": 18
+  }
+ },
+ "20834429/closed_population_ID.zip": {
+  "audio": 0,
+  "audio_bytes": 0,
+  "tables": 9,
+  "members": 9,
+  "exts": {
+   ".csv": 9
+  }
+ },
+ "12706803/CrestedGibbonTraining(JahooClips).zip": {
+  "audio": 2343,
+  "audio_bytes": 1799531778,
+  "tables": 0,
+  "members": 2346,
+  "exts": {
+   "": 3,
+   ".wav": 2343
+  }
+ },
+ "12706803/TrainingData1085(SortedDetectionsWav).zip": {
+  "audio": 5181,
+  "audio_bytes": 3979246326,
+  "tables": 0,
+  "members": 5184,
+  "exts": {
+   "": 3,
+   ".wav": 5181
+  }
+ },
+ "12706803/TestClipsDiffGibbonSpp(ValidationClipsVietnam).zip": {
+  "audio": 228,
+  "audio_bytes": 101386488,
+  "tables": 0,
+  "members": 229,
+  "exts": {
+   "": 1,
+   ".wav": 228
+  }
+ },
+ "12706803/AutomatedDetectionTestDataWideArray(SoundFiles).zip": {
+  "audio": 10,
+  "audio_bytes": 2304246220,
+  "tables": 0,
+  "members": 10,
+  "exts": {
+   ".wav": 10
+  }
+ },
+ "15008561/data.zip": {
+  "audio": 0,
+  "audio_bytes": 0,
+  "tables": 10,
+  "members": 15,
+  "exts": {
+   ".csv": 4,
+   ".txt": 6,
+   ".hdf5": 4,
+   ".h5": 1
+  }
+ },
+ "4661495/TemporalContext-2021-FinWhale.zip": {
+  "audio": 5,
+  "audio_bytes": 646312003,
+  "tables": 13,
+  "members": 36,
+  "exts": {
+   ".txt": 12,
+   ".npz": 18,
+   ".flac": 5,
+   ".csv": 1
+  }
+ },
+ "19133112/ATBFL_BASEAL.zip": {
+  "audio": 0,
+  "audio_bytes": 0,
+  "tables": 3,
+  "members": 15638,
+  "exts": {
+   "": 1,
+   ".npy": 15634,
+   ".json": 1,
+   ".csv": 2
+  }
+ },
+ "18977979/BatSpot.zip": {
+  "audio": 0,
+  "audio_bytes": 0,
+  "tables": 2,
+  "members": 686,
+  "exts": {
+   ".pyc": 54,
+   ".py": 51,
+   "": 4,
+   ".sh": 1,
+   ".png": 452,
+   ".gif": 45,
+   ".jpg": 75,
+   ".md": 1,
+   ".txt": 2,
+   ".spec": 1
+  }
+ },
+ "4008297/dataset.zip": {
+  "audio": 440,
+  "audio_bytes": 14490580,
+  "tables": 0,
+  "members": 440,
+  "exts": {
+   ".wav": 440
+  }
+ },
+ "4008297/extras.zip": {
+  "audio": 43,
+  "audio_bytes": 6557164,
+  "tables": 0,
+  "members": 43,
+  "exts": {
+   ".wav": 43
+  }
+ },
+ "18972388/01 Samples of play sessions.zip": {
+  "audio": 0,
+  "audio_bytes": 0,
+  "tables": 0,
+  "members": 18,
+  "exts": {
+   "": 1,
+   ".mp4": 17
+  }
+ },
+ "18972388/03 Play session recordings.zip": {
+  "audio": 30,
+  "audio_bytes": 848631496,
+  "tables": 0,
+  "members": 31,
+  "exts": {
+   "": 1,
+   ".wav": 30
+  }
+ },
+ "18972388/02 Raw recordings.zip": {
+  "audio": 48,
+  "audio_bytes": 5197250428,
+  "tables": 0,
+  "members": 212,
+  "exts": {
+   "": 31,
+   ".wav": 48,
+   ".mp4": 133
+  }
+ },
+ "8252482/Soundwel Dataset - Audio and Spectrograms.zip": {
+  "audio": 6887,
+  "audio_bytes": 214362994,
+  "tables": 0,
+  "members": 13775,
+  "exts": {
+   ".wav": 6887,
+   ".png": 6888
+  }
+ },
+ "20702261/3_CESCAB-clips-flac.zip": {
+  "audio": 1626,
+  "audio_bytes": 3719331413,
+  "tables": 1,
+  "members": 1627,
+  "exts": {
+   ".flac": 1626,
+   ".txt": 1
+  }
+ },
+ "20702261/1_CESCAB-raw-flac.zip": {
+  "audio": 6147,
+  "audio_bytes": 20874076927,
+  "tables": 0,
+  "members": 6147,
+  "exts": {
+   ".flac": 6147
+  }
+ },
+ "20773227/audio.zip": {
+  "audio": 2931,
+  "audio_bytes": 16916271742,
+  "tables": 0,
+  "members": 2934,
+  "exts": {
+   "": 3,
+   ".wav": 2931
+  }
+ },
+ "15017207/Vocalizations.zip": {
+  "audio": 871045,
+  "audio_bytes": 65947754903,
+  "tables": 0,
+  "members": 871045,
+  "exts": {
+   ".flac": 871045
+  }
+ },
+ "15029872/USCMed.zip": {
+  "audio": 27,
+  "audio_bytes": 6673927216,
+  "tables": 27,
+  "members": 54,
+  "exts": {
+   ".wav": 27,
+   ".csv": 27
+  }
+ },
+ "7530401/goat_bleatings.zip": {
+  "audio": 4147,
+  "audio_bytes": 265605922,
+  "tables": 0,
+  "members": 4147,
+  "exts": {
+   ".wav": 4147
+  }
+ },
+ "20406266/CowRumIA-Dataset.zip": {
+  "audio": 624,
+  "audio_bytes": 168309946,
+  "tables": 1,
+  "members": 625,
+  "exts": {
+   ".wav": 624,
+   ".txt": 1
+  }
+ },
+ "3991714/Train.zip": {
+  "audio": 13,
+  "audio_bytes": 14376986462,
+  "tables": 0,
+  "members": 13,
+  "exts": {
+   ".wav": 13
+  }
+ },
+ "3991714/Test.zip": {
+  "audio": 13,
+  "audio_bytes": 13722996088,
+  "tables": 0,
+  "members": 13,
+  "exts": {
+   ".wav": 13
+  }
+ },
+ "3991714/Extra_Labelled_Data.zip": {
+  "audio": 6,
+  "audio_bytes": 6635532222,
+  "tables": 0,
+  "members": 6,
+  "exts": {
+   ".wav": 6
+  }
+ }
+}

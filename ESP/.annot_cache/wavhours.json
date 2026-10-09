@@ -1,0 +1,329 @@
+{
+ "6331594/Audio1.zip": {
+  "files": 40,
+  "hours": 32.940689774305554,
+  "sample_rate": 16000,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 64000,
+  "mixed": false
+ },
+ "6331594/Audio3.zip": {
+  "files": 31,
+  "hours": 20.668867164351852,
+  "sample_rate": 48000,
+  "channels": 1,
+  "bits": 16,
+  "byte_rate": 96000,
+  "mixed": false
+ },
+ "7997739/Audio_1.zip": {
+  "files": 9,
+  "hours": 15.976760202546297,
+  "sample_rate": 24000,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 96000,
+  "mixed": false
+ },
+ "7997739/Audio_2.zip": {
+  "files": 8,
+  "hours": 29.96284398148148,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 32,
+  "byte_rate": null,
+  "mixed": true
+ },
+ "7997739/Audio_3.zip": {
+  "files": 14,
+  "hours": 14.323906591435184,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 32,
+  "byte_rate": null,
+  "mixed": true
+ },
+ "7997739/Audio_4.zip": {
+  "files": 5,
+  "hours": 4.9000288483796295,
+  "sample_rate": 24000,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 96000,
+  "mixed": false
+ },
+ "20834429/part_1.zip": {
+  "files": 20,
+  "hours": 160.0002884837963,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "20834429/part_2.zip": {
+  "files": 21,
+  "hours": 163.27946957465278,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "20834429/part_3.zip": {
+  "files": 20,
+  "hours": 160.0002884837963,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "20834429/part_4.zip": {
+  "files": 20,
+  "hours": 155.96639959490741,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "20834429/part_5.zip": {
+  "files": 16,
+  "hours": 128.00023078703703,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "3991714/Train.zip": {
+  "files": 13,
+  "hours": 104.0001872829861,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "3991714/Test.zip": {
+  "files": 13,
+  "hours": 99.26935413773147,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "3991714/Extra_Labelled_Data.zip": {
+  "files": 6,
+  "hours": 48.00008650173611,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "12706803/CrestedGibbonTraining(JahooClips).zip": {
+  "files": 2343,
+  "hours": 7.810020338541666,
+  "sample_rate": 32000,
+  "channels": 1,
+  "bits": 16,
+  "byte_rate": 64000,
+  "mixed": false
+ },
+ "12706803/TrainingData1085(SortedDetectionsWav).zip": {
+  "files": 5181,
+  "hours": 17.270044973958335,
+  "sample_rate": 32000,
+  "channels": 1,
+  "bits": 16,
+  "byte_rate": 64000,
+  "mixed": false
+ },
+ "12706803/TestClipsDiffGibbonSpp(ValidationClipsVietnam).zip": {
+  "files": 228,
+  "hours": 0.8800039583333333,
+  "sample_rate": 16000,
+  "channels": 1,
+  "bits": 16,
+  "byte_rate": 32000,
+  "mixed": false
+ },
+ "12706803/AutomatedDetectionTestDataWideArray(SoundFiles).zip": {
+  "files": 10,
+  "hours": 10.001066753472221,
+  "sample_rate": 32000,
+  "channels": 1,
+  "bits": 16,
+  "byte_rate": 64000,
+  "mixed": false
+ },
+ "18972388/03 Play session recordings.zip": {
+  "files": 30,
+  "hours": 2.0783246874999994,
+  "sample_rate": 48000,
+  "channels": 1,
+  "bits": 32,
+  "byte_rate": null,
+  "mixed": true
+ },
+ "3991714/Unlabelled_Data_6.zip": {
+  "files": 14,
+  "hours": 69.40023917824074,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "3991714/Unlabelled_Data_9.zip": {
+  "files": 11,
+  "hours": 82.42543658854167,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "3991714/Unlabelled_Data_11.zip": {
+  "files": 9,
+  "hours": 72.00012994791666,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "3991714/Unlabelled_Data_12.zip": {
+  "files": 12,
+  "hours": 96.0001730613426,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "3991714/Unlabelled_Data_13.zip": {
+  "files": 11,
+  "hours": 88.00015818865741,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "18972388/02 Raw recordings.zip": {
+  "files": 48,
+  "hours": 8.714981562499991,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bits": 32,
+  "byte_rate": null,
+  "mixed": true
+ },
+ "4008297/dataset.zip": {
+  "files": 440,
+  "hours": 0.2512364583333333,
+  "sample_rate": 8000,
+  "channels": 1,
+  "bits": 16,
+  "byte_rate": 16000,
+  "mixed": false
+ },
+ "4661495/TemporalContext-2021-FinWhale.zip": {
+  "error": "TypeError: 'NoneType' object is not subscriptable"
+ },
+ "3991714/Unlabelled_Data_1.zip": {
+  "files": 9,
+  "hours": 72.00012981770833,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "3991714/Unlabelled_Data_2.zip": {
+  "files": 9,
+  "hours": 72.00012981770833,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "3991714/Unlabelled_Data_3.zip": {
+  "files": 12,
+  "hours": 73.40363962673611,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "3991714/Unlabelled_Data_4.zip": {
+  "files": 9,
+  "hours": 72.00012942708334,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "3991714/Unlabelled_Data_5.zip": {
+  "files": 10,
+  "hours": 74.49250306712963,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "3991714/Unlabelled_Data_7.zip": {
+  "files": 12,
+  "hours": 73.98627662037036,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "3991714/Unlabelled_Data_8.zip": {
+  "files": 10,
+  "hours": 75.5845886863426,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "3991714/Unlabelled_Data_10.zip": {
+  "files": 10,
+  "hours": 80.00014438657406,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "3991714/Unlabelled_Data_14.zip": {
+  "files": 11,
+  "hours": 84.75195868055556,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ },
+ "3991714/Unlabelled_Data_15.zip": {
+  "files": 5,
+  "hours": 37.46868318865741,
+  "sample_rate": 9600,
+  "channels": 2,
+  "bits": 16,
+  "byte_rate": 38400,
+  "mixed": false
+ }
+}

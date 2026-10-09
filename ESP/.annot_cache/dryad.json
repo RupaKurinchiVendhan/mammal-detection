@@ -1,0 +1,163 @@
+{
+ "10.5061/dryad.9ghx3ffpx": {
+  "title": "Data from: A model of marmoset monkey vocal turn-taking",
+  "authors": [
+   "Grijseels",
+   "Fairbank",
+   "Miller"
+  ],
+  "year": "2024",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "keywords": [
+   "Marmosets",
+   "Callithrix jacchus",
+   "Communication network",
+   "vocal communication",
+   "vocal turn-taking"
+  ],
+  "related": [
+   [
+    "https://doi.org/10.5281/zenodo.8415531",
+    "software"
+   ],
+   [
+    "https://doi.org/10.1101/2023.10.07.561358",
+    "preprint"
+   ],
+   [
+    "https://doi.org/10.1098/rspb.2024.0150",
+    "primary_article"
+   ]
+  ],
+  "files": [
+   [
+    "README.md",
+    2851
+   ],
+   [
+    "vocal_turn_taking_data.zip",
+    1691278
+   ]
+  ]
+ },
+ "10.5061/dryad.7hj0j": {
+  "title": "Data from: Specific 50-kHz vocalizations are tightly linked to particular types of behavior in juvenile rats anticipating play",
+  "authors": [
+   "Burke",
+   "Kisko",
+   "Swiftwolfe",
+   "Pellis",
+   "Euston"
+  ],
+  "year": "2018",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "keywords": [
+   "Ultrasonic Vocalizations",
+   "Rattus norvegicus (Long Evans)",
+   "Rodents",
+   "2013-2014"
+  ],
+  "related": [
+   [
+    "https://doi.org/10.1371/journal.pone.0175841",
+    "primary_article"
+   ]
+  ],
+  "files": [
+   [
+    "Behavioural Data -Day 7 Only.zip",
+    1261147582
+   ],
+   [
+    "Data for Paper Publication - Video (2).zip",
+    667243744
+   ],
+   [
+    "README_for_Behavioural Data -Day 7 Only.docx",
+    14266
+   ],
+   [
+    "README_for_Data for Paper Publication - Video (2).docx",
+    14266
+   ],
+   [
+    "README_for_Vocalization Data - Assorted Days.docx",
+    14266
+   ],
+   [
+    "README_for_Vocalization Data - Testing Day 7 Only.docx",
+    14266
+   ],
+   [
+    "Vocalization Data - Assorted Days.zip",
+    684846612
+   ],
+   [
+    "Vocalization Data - Testing Day 7 Only.zip",
+    976292491
+   ]
+  ]
+ },
+ "10.5061/dryad.15dv41p1f": {
+  "title": "Extremely low seasonal prey capture efficiency in a deep-diving whale, the narwhal",
+  "authors": [
+   "Chambault",
+   "Blackwell",
+   "Heide-J\u00f8rgensen"
+  ],
+  "year": "2022",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "keywords": [
+   "Echolocation",
+   "Acoustics",
+   "buzzes",
+   "stomach temperature pill",
+   "foraging behaviour",
+   "Prey catch attempts"
+  ],
+  "related": [
+   [
+    "https://doi.org/10.1126/sciadv.abn2422",
+    "article"
+   ],
+   [
+    "https://doi.org/10.1371/journal.pone.0198295",
+    "article"
+   ],
+   [
+    "https://doi.org/10.1186/2050-3385-2-9",
+    "article"
+   ],
+   [
+    "https://github.com/pchambault/Narwhals-Prey-Capture-Efficiency.git",
+    "software"
+   ],
+   [
+    "https://doi.org/10.1098/rsbl.2022.0423",
+    "primary_article"
+   ]
+  ],
+  "files": [
+   [
+    "Buzz_STP_drops_Eistla.txt",
+    10998441
+   ],
+   [
+    "Buzz_STP_drops_Frida.txt",
+    16508910
+   ],
+   [
+    "Buzz_STP_drops_Thora.txt",
+    31204999
+   ],
+   [
+    "README.md",
+    1318
+   ],
+   [
+    "STP_clean_7ids.txt",
+    32705509
+   ]
+  ]
+ }
+}

@@ -1,0 +1,1002 @@
+{
+ "BIOAC-017|20773227/audio.zip": {
+  "files_sampled": 8,
+  "files_total": 1336,
+  "sample_rate": 500000,
+  "sample_rates": [
+   250000,
+   500000
+  ],
+  "nyquist": 250000.0,
+  "low_hz": 91718.20485499698,
+  "high_hz": 107984.70732654486,
+  "peak_hz": 106109.619140625,
+  "low_min_hz": 59.411043677019165,
+  "high_max_hz": 205569.52897892438,
+  "per_file": [
+   {
+    "name": "r.blasii1_40_15_eb_fs500_0000011.WAV",
+    "low": 44411,
+    "high": 205570,
+    "peak": 94421
+   },
+   {
+    "name": "blasii5_20_15_eab_fs250_avi18_0000006.WAV",
+    "low": 59,
+    "high": 95825,
+    "peak": 95734
+   },
+   {
+    "name": "meh19_f_mix_calls_0000002_2.WAV",
+    "low": 90882,
+    "high": 107594,
+    "peak": 107422
+   },
+   {
+    "name": "mehelyi2malenew_fs500_avi15_box_2008-06-05 23_22_13 003.WAV",
+    "low": 93676,
+    "high": 108512,
+    "peak": 108459
+   },
+   {
+    "name": "mehelyi1femalenew_fs500_avi15_box_2008-06-05 21_09_43 004_2.WAV",
+    "low": 92554,
+    "high": 108375,
+    "peak": 108337
+   },
+   {
+    "name": "euryale11_40_15_eab_fs500_2007-06-22 00_01_29 0000003_4.WAV",
+    "low": 93995,
+    "high": 104879,
+    "peak": 104797
+   },
+   {
+    "name": "hippo1_20_15_eab_fs250_1.wav",
+    "low": 108339,
+    "high": 108963,
+    "peak": 108948
+   },
+   {
+    "name": "ferrum2_20_15_eab_fs250_avi1_92007-07-10 22_16_12 000004_3.WAV",
+    "low": 80177,
+    "high": 80442,
+    "peak": 80322
+   }
+  ],
+  "median_file_mb": 0.386834,
+  "label": "ChirosetEurope (bats)"
+ },
+ "BIOAC-232|4008297/dataset.zip": {
+  "files_sampled": 4,
+  "files_total": 440,
+  "sample_rate": 8000,
+  "sample_rates": [
+   8000
+  ],
+  "nyquist": 4000.0,
+  "low_hz": 743.7553293498768,
+  "high_hz": 2206.978184185284,
+  "peak_hz": 1421.875,
+  "low_min_hz": 497.02050605827696,
+  "high_max_hz": 3374.8885673991444,
+  "per_file": [
+   {
+    "name": "F_MAG01_EU_FN_FED01_106.wav",
+    "low": 497,
+    "high": 3375,
+    "peak": 1961
+   },
+   {
+    "name": "F_WHO01_MC_FI_SIM01_301.wav",
+    "low": 725,
+    "high": 2195,
+    "peak": 1453
+   },
+   {
+    "name": "I_NUL01_MC_MI_SIM01_202.wav",
+    "low": 890,
+    "high": 1848,
+    "peak": 1391
+   },
+   {
+    "name": "I_DAK01_MC_FN_SIM01_310.wav",
+    "low": 762,
+    "high": 2219,
+    "peak": 1159
+   }
+  ],
+  "median_file_mb": 0.03288,
+  "label": "CatMeows"
+ },
+ "BIOAC-284|7530401/goat_bleatings.zip": {
+  "files_sampled": 4,
+  "files_total": 4147,
+  "sample_rate": 16000,
+  "sample_rates": [
+   16000
+  ],
+  "nyquist": 8000.0,
+  "low_hz": 423.76515629230846,
+  "high_hz": 3177.248563397366,
+  "peak_hz": 671.875,
+  "low_min_hz": 61.71840741038072,
+  "high_max_hz": 3369.8092317861338,
+  "per_file": [
+   {
+    "name": "wav.3etk234i.ingestion-766775b6cb-pcm28.s1.wav",
+    "low": 607,
+    "high": 3089,
+    "peak": 611
+   },
+   {
+    "name": "wav.3etk2fqd.ingestion-766775b6cb-f8lrc.s16.wav",
+    "low": 515,
+    "high": 2798,
+    "peak": 756
+   },
+   {
+    "name": "wav.3etjboa0.ingestion-766775b6cb-4r849.s6.wav",
+    "low": 62,
+    "high": 3370,
+    "peak": 660
+   },
+   {
+    "name": "wav.3gp2ouv1.ingestion-67f8c46c97-lfpgh.s2.wav",
+    "low": 333,
+    "high": 3266,
+    "peak": 684
+   }
+  ],
+  "median_file_mb": 0.064044,
+  "label": "VOCAPRA goat"
+ },
+ "BIOAC-236|20406266/CowRumIA-Dataset.zip": {
+  "files_sampled": 4,
+  "files_total": 624,
+  "sample_rate": 48000,
+  "sample_rates": [
+   48000
+  ],
+  "nyquist": 24000.0,
+  "low_hz": 198.54858349210915,
+  "high_hz": 1636.8674731988938,
+  "peak_hz": 580.078125,
+  "low_min_hz": 90.02122160548308,
+  "high_max_hz": 2590.558329357235,
+  "per_file": [
+   {
+    "name": "Berlin_EE (1).wav",
+    "low": 153,
+    "high": 457,
+    "peak": 439
+   },
+   {
+    "name": "Venaderos_EE (25).wav",
+    "low": 90,
+    "high": 1667,
+    "peak": 598
+   },
+   {
+    "name": "Posta_BLE (170).wav",
+    "low": 244,
+    "high": 2591,
+    "peak": 562
+   },
+   {
+    "name": "Berlin_LE (18).wav",
+    "low": 366,
+    "high": 1607,
+    "peak": 926
+   }
+  ],
+  "median_file_mb": 0.284204,
+  "label": "CowRumIA cattle"
+ },
+ "BIOAC-276|8252482/Soundwel Dataset - Audio and Spectrograms.zip": {
+  "files_sampled": 4,
+  "files_total": 6887,
+  "sample_rate": 44100,
+  "sample_rates": [
+   44100
+  ],
+  "nyquist": 22050.0,
+  "low_hz": 64.49770815320261,
+  "high_hz": 617.7266234425028,
+  "peak_hz": 137.03281694188783,
+  "low_min_hz": 27.77529792007936,
+  "high_max_hz": 3081.342379759893,
+  "per_file": [
+   {
+    "name": "ETHZETHZIsolationIsolationpig151.wav",
+    "low": 71,
+    "high": 783,
+    "peak": 355
+   },
+   {
+    "name": "FBNFBNPositiveConditioning17072014VT7LFs5.wav",
+    "low": 88,
+    "high": 452,
+    "peak": 97
+   },
+   {
+    "name": "IASPIASPReunionReunSow32Pig61.wav",
+    "low": 28,
+    "high": 3081,
+    "peak": 165
+   },
+   {
+    "name": "IASPIASPShortPr67Sele03Na3min6.wav",
+    "low": 58,
+    "high": 248,
+    "peak": 109
+   }
+  ],
+  "median_file_mb": 0.02451,
+  "label": "Soundwel pig"
+ },
+ "BIOAC-265|15017207/Vocalizations.zip": {
+  "files_sampled": 4,
+  "files_total": 871045,
+  "sample_rate": 96000,
+  "sample_rates": [
+   96000
+  ],
+  "nyquist": 48000.0,
+  "low_hz": 11.71875,
+  "high_hz": 7199.00811231485,
+  "peak_hz": 11.71875,
+  "low_min_hz": 11.71875,
+  "high_max_hz": 9845.289012459967,
+  "per_file": [
+   {
+    "name": "Infant_cry_207583.flac",
+    "low": 12,
+    "high": 9845,
+    "peak": 12
+   },
+   {
+    "name": "Vocalization_502097.flac",
+    "low": 12,
+    "high": 6906,
+    "peak": 12
+   },
+   {
+    "name": "Vocalization_371754.flac",
+    "low": 12,
+    "high": 7492,
+    "peak": 12
+   },
+   {
+    "name": "Vocalization_147501.flac",
+    "low": 12,
+    "high": 57,
+    "peak": 47
+   }
+  ],
+  "median_file_mb": 0.071246,
+  "label": "MarmAudio"
+ },
+ "BIOAC-277|12706803/CrestedGibbonTraining(JahooClips).zip": {
+  "files_sampled": 4,
+  "files_total": 2343,
+  "sample_rate": 32000,
+  "sample_rates": [
+   32000
+  ],
+  "nyquist": 16000.0,
+  "low_hz": 12.791034197200613,
+  "high_hz": 5137.368329413734,
+  "peak_hz": 13.671875,
+  "low_min_hz": 7.8125,
+  "high_max_hz": 6916.595786526358,
+  "per_file": [
+   {
+    "name": "Gibbons_H_R1023_20220320_050002_2929.wav",
+    "low": 999,
+    "high": 5905,
+    "peak": 1520
+   },
+   {
+    "name": "Noise_R1050_20220407_080004_733.wav",
+    "low": 14,
+    "high": 6917,
+    "peak": 8
+   },
+   {
+    "name": "Noise_R1060_20220325_050002_1039.wav",
+    "low": 8,
+    "high": 58,
+    "peak": 16
+   },
+   {
+    "name": "Noise_R1024_20220504_040001_895.wav",
+    "low": 11,
+    "high": 4370,
+    "peak": 12
+   }
+  ],
+  "median_file_mb": 0.768046,
+  "label": "Crested gibbon clips"
+ },
+ "BIOAC-100|20702261/3_CESCAB-clips-flac.zip": {
+  "files_sampled": 4,
+  "files_total": 1626,
+  "sample_rate": 240000,
+  "sample_rates": [
+   240000
+  ],
+  "nyquist": 120000.0,
+  "low_hz": 215.82843664961308,
+  "high_hz": 33176.08582943323,
+  "peak_hz": 732.421875,
+  "low_min_hz": 171.4422520058246,
+  "high_max_hz": 44617.587890624985,
+  "per_file": [
+   {
+    "name": "sel_981_Physeter macrocephalus.clicks.flac",
+    "low": 309,
+    "high": 32764,
+    "peak": 732
+   },
+   {
+    "name": "sel_729_Delphinidae.whistles.flac",
+    "low": 256,
+    "high": 33588,
+    "peak": 732
+   },
+   {
+    "name": "sel_261_Delphinidae.whistles.flac",
+    "low": 171,
+    "high": 14462,
+    "peak": 732
+   },
+   {
+    "name": "sel_1259_Delphinidae.whistles.flac",
+    "low": 175,
+    "high": 44618,
+    "peak": 732
+   }
+  ],
+  "median_file_mb": 0.1894555,
+  "label": "CESCAB clips"
+ },
+ "BIOAC-123|17282717/Delphinidae.zip": {
+  "files_sampled": 4,
+  "files_total": 702,
+  "sample_rate": 96000,
+  "sample_rates": [
+   96000
+  ],
+  "nyquist": 48000.0,
+  "low_hz": 17.073632250913434,
+  "high_hz": 23907.02711037627,
+  "peak_hz": 70.3125,
+  "low_min_hz": 11.71875,
+  "high_max_hz": 28570.31622023808,
+  "per_file": [
+   {
+    "name": "F_D04_sel_01_delphinidae_whistles.wav",
+    "low": 96,
+    "high": 26823,
+    "peak": 117
+   },
+   {
+    "name": "F_D07_sel_24_delphinidae_clicks.wav",
+    "low": 12,
+    "high": 5445,
+    "peak": 23
+   },
+   {
+    "name": "F_D07_sel_409_delphinidae_whistles.wav",
+    "low": 22,
+    "high": 28570,
+    "peak": 551
+   },
+   {
+    "name": "F_D07_20231012_045200.WAV",
+    "low": 12,
+    "high": 20991,
+    "peak": 23
+   }
+  ],
+  "median_file_mb": 0.38935,
+  "label": "Odontocetes, Delphinidae"
+ },
+ "BIOAC-123|17282717/Physeter_macrocephalus.zip": {
+  "files_sampled": 4,
+  "files_total": 85,
+  "sample_rate": 48000,
+  "sample_rates": [
+   48000
+  ],
+  "nyquist": 24000.0,
+  "low_hz": 18.202478024293246,
+  "high_hz": 4390.154449681173,
+  "peak_hz": 38.0859375,
+  "low_min_hz": 8.290945720862206,
+  "high_max_hz": 13891.074036214946,
+  "per_file": [
+   {
+    "name": "B_D03_sel_01_phyMac.wav",
+    "low": 24,
+    "high": 259,
+    "peak": 111
+   },
+   {
+    "name": "B_D09_20240512_093100.WAV",
+    "low": 30,
+    "high": 8521,
+    "peak": 41
+   },
+   {
+    "name": "B_D11_20240512_100500.WAV",
+    "low": 12,
+    "high": 13891,
+    "peak": 35
+   },
+   {
+    "name": "B_D15_20240613_130200.WAV",
+    "low": 8,
+    "high": 163,
+    "peak": 23
+   }
+  ],
+  "median_file_mb": 11.520488,
+  "label": "Odontocetes, sperm whale"
+ },
+ "BIOAC-239|18972388/03 Play session recordings.zip": {
+  "files_sampled": 4,
+  "files_total": 30,
+  "sample_rate": 48000,
+  "sample_rates": [
+   48000
+  ],
+  "nyquist": 24000.0,
+  "low_hz": 66.33710650140661,
+  "high_hz": 4466.282926665972,
+  "peak_hz": 348.6328125,
+  "low_min_hz": 10.268791806560797,
+  "high_max_hz": 11100.530147693633,
+  "per_file": [
+   {
+    "name": "P-01-S-P_1.wav",
+    "low": 455,
+    "high": 1716,
+    "peak": 580
+   },
+   {
+    "name": "P-07-S-P_1.wav",
+    "low": 19,
+    "high": 1605,
+    "peak": 135
+   },
+   {
+    "name": "P-15-S-P_1.wav",
+    "low": 10,
+    "high": 11101,
+    "peak": 135
+   },
+   {
+    "name": "P-03-S-P_2.wav",
+    "low": 113,
+    "high": 7216,
+    "peak": 562
+   }
+  ],
+  "median_file_mb": 19.776192,
+  "label": "Dog play sessions"
+ },
+ "BIOAC-226|6331594/Audio1.zip": {
+  "files_sampled": 4,
+  "files_total": 40,
+  "sample_rate": 32000,
+  "sample_rates": [
+   16000,
+   32000
+  ],
+  "nyquist": 16000.0,
+  "low_hz": 18.02776505548199,
+  "high_hz": 5762.225043287355,
+  "peak_hz": 19.53125,
+  "low_min_hz": 12.207658271246538,
+  "high_max_hz": 12348.138901942353,
+  "per_file": [
+   {
+    "name": "S4A00001_20190721_064110_000.wav",
+    "low": 439,
+    "high": 4434,
+    "peak": 604
+   },
+   {
+    "name": "swift1_20000106_080005_AR.wav",
+    "low": 17,
+    "high": 5225,
+    "peak": 20
+   },
+   {
+    "name": "swift1_20190521_121725_RM.wav",
+    "low": 19,
+    "high": 12348,
+    "peak": 8
+   },
+   {
+    "name": "swift1_20190629_080004.wav",
+    "low": 12,
+    "high": 6300,
+    "peak": 20
+   }
+  ],
+  "median_file_mb": 230.424576,
+  "label": "Ruffed lemur"
+ },
+ "BIOAC-249|7997739/Audio_4.zip": {
+  "files_sampled": 4,
+  "files_total": 5,
+  "sample_rate": 24000,
+  "sample_rates": [
+   24000
+  ],
+  "nyquist": 12000.0,
+  "low_hz": 13.514683103265,
+  "high_hz": 4473.895466065014,
+  "peak_hz": 5.859375,
+  "low_min_hz": 5.859375,
+  "high_max_hz": 9816.302263792644,
+  "per_file": [
+   {
+    "name": "HGSM3C_0+1_20160728_202006.wav",
+    "low": 6,
+    "high": 9816,
+    "peak": 6
+   },
+   {
+    "name": "HGSM3C_0+1_20160728_212006.wav",
+    "low": 18,
+    "high": 4448,
+    "peak": 6
+   },
+   {
+    "name": "HGSM3C_0+1_20160728_222006.wav",
+    "low": 9,
+    "high": 4467,
+    "peak": 6
+   },
+   {
+    "name": "HGSM3C_0+1_20160728_232006.wav",
+    "low": 19,
+    "high": 4481,
+    "peak": 6
+   }
+  ],
+  "median_file_mb": 345.026038,
+  "label": "Hainan gibbon (ML release)"
+ },
+ "BIOAC-255|3991714/Test.zip": {
+  "files_sampled": 4,
+  "files_total": 13,
+  "sample_rate": 9600,
+  "sample_rates": [
+   9600
+  ],
+  "nyquist": 4800.0,
+  "low_hz": 7.086452079773512,
+  "high_hz": 2089.360742554459,
+  "peak_hz": 8.7890625,
+  "low_min_hz": 6.136894185200737,
+  "high_max_hz": 2678.5090258855575,
+  "per_file": [
+   {
+    "name": "HGSM3B_0+1_20160307_055800.wav",
+    "low": 7,
+    "high": 2422,
+    "peak": 7
+   },
+   {
+    "name": "HGSM3B_0+1_20160302_104551.wav",
+    "low": 7,
+    "high": 2679,
+    "peak": 7
+   },
+   {
+    "name": "HGSM3B_0+1_20160304_060000.wav",
+    "low": 10,
+    "high": 1757,
+    "peak": 16
+   },
+   {
+    "name": "HGSM3B_0+1_20160323_054500.wav",
+    "low": 6,
+    "high": 783,
+    "peak": 11
+   }
+  ],
+  "median_file_mb": 1105.922038,
+  "label": "Hainan gibbon (2019 release)"
+ },
+ "BIOAC-159|4661495/TemporalContext-2021-FinWhale.zip": {
+  "error": "no decodable audio",
+  "label": "Fin whale"
+ },
+ "BIOAC-282|15029872/USCMed.zip": {
+  "files_sampled": 4,
+  "files_total": 27,
+  "sample_rate": 250000,
+  "sample_rates": [
+   250000
+  ],
+  "nyquist": 125000.0,
+  "low_hz": 49.46419264221725,
+  "high_hz": 915.0718822891637,
+  "peak_hz": 91.552734375,
+  "low_min_hz": 44.77296319039271,
+  "high_max_hz": 1322.0464142105159,
+  "per_file": [
+   {
+    "name": "PTSD16_Context02.wav",
+    "low": 54,
+    "high": 915,
+    "peak": 92
+   },
+   {
+    "name": "PTSD16_Context14.wav",
+    "low": 45,
+    "high": 877,
+    "peak": 92
+   },
+   {
+    "name": "PTSD16_Context13.wav",
+    "low": 48,
+    "high": 915,
+    "peak": 92
+   },
+   {
+    "name": "PTSD16_Context20.wav",
+    "low": 51,
+    "high": 1322,
+    "peak": 92
+   }
+  ],
+  "median_file_mb": 238.682228,
+  "label": "USCMed rat USVs"
+ },
+ "BIOAC-091|19133112/ATBFL_BASEAL.zip": {
+  "error": "no decodable audio",
+  "label": "ATBFL"
+ },
+ "BIOAC-009|15843741/JS.zip": {
+  "files_sampled": 4,
+  "files_total": 4,
+  "sample_rate": 16000,
+  "sample_rates": [
+   16000
+  ],
+  "nyquist": 8000.0,
+  "low_hz": 85.61774404365266,
+  "high_hz": 2044.1732579171521,
+  "peak_hz": 159.1796875,
+  "low_min_hz": 50.18445328595119,
+  "high_max_hz": 2153.470685840707,
+  "per_file": [
+   {
+    "name": "Spiders_007.wav",
+    "low": 113,
+    "high": 1488,
+    "peak": 119
+   },
+   {
+    "name": "Spiders_011.wav",
+    "low": 142,
+    "high": 2153,
+    "peak": 211
+   },
+   {
+    "name": "Spiders_015.wav",
+    "low": 50,
+    "high": 2061,
+    "peak": 105
+   },
+   {
+    "name": "Spiders_017.wav",
+    "low": 59,
+    "high": 2028,
+    "peak": 199
+   }
+  ],
+  "median_file_mb": 6.236141,
+  "label": "FASD13 jumping spiders"
+ },
+ "BIOAC-002|15843741/AS.zip": {
+  "files_sampled": 4,
+  "files_total": 12,
+  "sample_rate": 22050,
+  "sample_rates": [
+   22050
+  ],
+  "nyquist": 11025.0,
+  "low_hz": 1176.0456521752499,
+  "high_hz": 3265.7907106254497,
+  "peak_hz": 1861.2762451171875,
+  "low_min_hz": 676.9561050916024,
+  "high_max_hz": 3523.665626285686,
+  "per_file": [
+   {
+    "name": "Anuraset_INCT20955_20190911_233000.wav",
+    "low": 677,
+    "high": 3228,
+    "peak": 1868
+   },
+   {
+    "name": "Anuraset_INCT20955_20191210_233000.wav",
+    "low": 1592,
+    "high": 2891,
+    "peak": 1855
+   },
+   {
+    "name": "Anuraset_INCT20955_20190911_004500.wav",
+    "low": 1481,
+    "high": 3524,
+    "peak": 2643
+   },
+   {
+    "name": "Anuraset_INCT17_20201112_040000.wav",
+    "low": 871,
+    "high": 3303,
+    "peak": 918
+   }
+  ],
+  "median_file_mb": 5.29364,
+  "label": "FASD13 AnuraSet frogs"
+ },
+ "BIOAC-008|15843741/RS.zip": {
+  "files_sampled": 4,
+  "files_total": 7,
+  "sample_rate": 32000,
+  "sample_rates": [
+   32000
+  ],
+  "nyquist": 16000.0,
+  "low_hz": 16.257919538388496,
+  "high_hz": 8544.12528096696,
+  "peak_hz": 11.71875,
+  "low_min_hz": 7.8125,
+  "high_max_hz": 9029.104465233544,
+  "per_file": [
+   {
+    "name": "rana_sierrae_20220624.wav",
+    "low": 8,
+    "high": 8498,
+    "peak": 12
+   },
+   {
+    "name": "rana_sierrae_20220625.wav",
+    "low": 97,
+    "high": 9029,
+    "peak": 16
+   },
+   {
+    "name": "rana_sierrae_20220626.wav",
+    "low": 8,
+    "high": 8590,
+    "peak": 12
+   },
+   {
+    "name": "rana_sierrae_20220622.wav",
+    "low": 24,
+    "high": 8313,
+    "peak": 8
+   }
+  ],
+  "median_file_mb": 6.153552,
+  "label": "FASD13 Rana sierrae"
+ },
+ "BIOAC-088|15843741/KD.zip": {
+  "files_sampled": 4,
+  "files_total": 12,
+  "sample_rate": 96000,
+  "sample_rates": [
+   96000
+  ],
+  "nyquist": 48000.0,
+  "low_hz": 11.71875,
+  "high_hz": 7442.992604706507,
+  "peak_hz": 11.71875,
+  "low_min_hz": 11.71875,
+  "high_max_hz": 7640.143601529197,
+  "per_file": [
+   {
+    "name": "katydid_Clip028_BCI.wav",
+    "low": 12,
+    "high": 6482,
+    "peak": 12
+   },
+   {
+    "name": "katydid_Clip020_BCI.wav",
+    "low": 3366,
+    "high": 7640,
+    "peak": 7066
+   },
+   {
+    "name": "katydid_Clip016_BCI.wav",
+    "low": 12,
+    "high": 7512,
+    "peak": 12
+   },
+   {
+    "name": "katydid_Clip024_BCI.wav",
+    "low": 12,
+    "high": 7374,
+    "peak": 12
+   }
+  ],
+  "median_file_mb": 115.163136,
+  "label": "FASD13 katydids"
+ },
+ "BIOAC-127|15843741/HW.zip": {
+  "files_sampled": 4,
+  "files_total": 10,
+  "sample_rate": 10000,
+  "sample_rates": [
+   10000
+  ],
+  "nyquist": 5000.0,
+  "low_hz": 8.88254818096065,
+  "high_hz": 1931.1983077252487,
+  "peak_hz": 29.9072265625,
+  "low_min_hz": 6.103515625,
+  "high_max_hz": 3950.133158627476,
+  "per_file": [
+   {
+    "name": "humpback_Kingman_A_01_111114_144000.df20.x_subchunks.wav",
+    "low": 6,
+    "high": 651,
+    "peak": 6
+   },
+   {
+    "name": "humpback_Hawaii_K_14_130217_170000.df20.x_subchunks.wav",
+    "low": 11,
+    "high": 3211,
+    "peak": 50
+   },
+   {
+    "name": "humpback_Hawaii_K_02_080506_183545.d20.x_subchunks.wav",
+    "low": 41,
+    "high": 3950,
+    "peak": 50
+   },
+   {
+    "name": "humpback_Kauai_A_01_100228_022115.df20.x_subchunks.wav",
+    "low": 7,
+    "high": 12,
+    "peak": 10
+   }
+  ],
+  "median_file_mb": 7.172577,
+  "label": "FASD13 humpback whale"
+ },
+ "BIOAC-144|15843741/RW.zip": {
+  "files_sampled": 4,
+  "files_total": 10,
+  "sample_rate": 32768,
+  "sample_rates": [
+   32768
+  ],
+  "nyquist": 16384.0,
+  "low_hz": 40.90909644118447,
+  "high_hz": 12723.26256196641,
+  "peak_hz": 8.0,
+  "low_min_hz": 8.0,
+  "high_max_hz": 14068.302687000723,
+  "per_file": [
+   {
+    "name": "right_whale_B_cont_2.wav",
+    "low": 130,
+    "high": 8793,
+    "peak": 136
+   },
+   {
+    "name": "right_whale_B_cont_48.wav",
+    "low": 8,
+    "high": 14068,
+    "peak": 8
+   },
+   {
+    "name": "right_whale_B_cont_37.wav",
+    "low": 8,
+    "high": 12514,
+    "peak": 8
+   },
+   {
+    "name": "right_whale_B_cont_8.wav",
+    "low": 74,
+    "high": 12932,
+    "peak": 8
+   }
+  ],
+  "median_file_mb": 117.968896,
+  "label": "FASD13 right whale"
+ },
+ "BIOAC-235|15843741/MS.zip": {
+  "files_sampled": 4,
+  "files_total": 10,
+  "sample_rate": 44100,
+  "sample_rates": [
+   44100
+  ],
+  "nyquist": 22050.0,
+  "low_hz": 7696.490989197759,
+  "high_hz": 9160.122713153276,
+  "peak_hz": 5.38330078125,
+  "low_min_hz": 7169.5164639386285,
+  "high_max_hz": 9616.949154789834,
+  "per_file": [
+   {
+    "name": "marmoset_20160907_Twin1_marmoset1.wav",
+    "low": 7170,
+    "high": 9617,
+    "peak": 5
+   },
+   {
+    "name": "marmoset_20160907_Twin2_marmoset2.wav",
+    "low": 7740,
+    "high": 8513,
+    "peak": 5
+   },
+   {
+    "name": "marmoset_20160923_Twin3_marmoset2.wav",
+    "low": 7653,
+    "high": 9034,
+    "peak": 5
+   },
+   {
+    "name": "marmoset_20160923_Twin3_marmoset1.wav",
+    "low": 8357,
+    "high": 9287,
+    "peak": 8958
+   }
+  ],
+  "median_file_mb": 105.852844,
+  "label": "FASD13 marmoset"
+ },
+ "BIOAC-255|15843741/HG.zip": {
+  "files_sampled": 4,
+  "files_total": 9,
+  "sample_rate": 9600,
+  "sample_rates": [
+   9600
+  ],
+  "nyquist": 4800.0,
+  "low_hz": 7.747323311817402,
+  "high_hz": 1597.1580998531408,
+  "peak_hz": 13.4765625,
+  "low_min_hz": 5.915798524695115,
+  "high_max_hz": 1810.1930111197814,
+  "per_file": [
+   {
+    "name": "gibbons_HGSM3B_0+1_20160304_060000.wav",
+    "low": 10,
+    "high": 1757,
+    "peak": 16
+   },
+   {
+    "name": "gibbons_HGSM3B_0+1_20160316_055100.wav",
+    "low": 6,
+    "high": 1810,
+    "peak": 9
+   },
+   {
+    "name": "gibbons_HGSM3B_0+1_20160306_055900.wav",
+    "low": 9,
+    "high": 1438,
+    "peak": 16
+   },
+   {
+    "name": "gibbons_HGSM3B_0+1_20160309_055600.wav",
+    "low": 6,
+    "high": 500,
+    "peak": 11
+   }
+  ],
+  "median_file_mb": 1105.922038,
+  "label": "FASD13 Hainan gibbon"
+ }
+}
